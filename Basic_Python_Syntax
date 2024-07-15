@@ -1,0 +1,64 @@
+#Python Syntax examples
+name = "Aman"
+age = 21
+print("Name:", name, "Age:", age)
+
+x = 10
+y = 5
+if x > y:
+    print("x is greater than y")
+else:
+ print("y is greater than or equal to x")
+
+# Printing variables and literals
+x = 5
+y = 7
+print("x =", x, "y =", y, "Sum =", x + y)
+
+#Arthemeitic operations without using conditional statements
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+sum = float(num1) +float(num2)
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+
+#Arithemetic operations using conditional statements
+num1=float(input("Enter value 1:"))
+num2=float(input("Enter value 2:"))
+oper=input("Choose operator:")
+if(oper=='+'):
+  print("Answer:",num1+num2)
+elif(oper=='-'):
+  print("Subtraction:",num1-num2)
+elif(oper=='*'):
+  print("Multiplication:",num1*num2)
+elif(oper=='/'):
+  print("Division:",num1/num2)
+else:
+  print("Enter valid operator.")
+
+#slicing
+str="Python"
+print(str[::-1])
+
+#Lists
+# A list is a collection of items separated by commas and denoted by the symbol [].
+list1 = [1, 2, "Python", "Program", 15.9]
+list2 = ["Amy", "Ryan", "Henry", "Emma"]
+
+# printing the list
+print(list1)
+print(list2)
+# printing the type of list
+print(type(list1))
+print(type(list2))
+
+#Dictionary
+#A dictionary is, in other words, a group of key-value pairs, where the values can be any Python object.
+Employee = {"Name": "Johnn", "Age": 32, "salary":50000,"Company":"^TCS"}
+print(type(Employee))
+print("printing Employee data .... ")
+print(Employee)
+
+#Tuple
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
